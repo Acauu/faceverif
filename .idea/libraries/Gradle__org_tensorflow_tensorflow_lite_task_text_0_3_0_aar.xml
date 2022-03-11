@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: org.tensorflow:tensorflow-lite-task-text:0.3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af89b78d2b3acc56e34d8c83353ddb7e/jetified-tensorflow-lite-task-text-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d0c589f81d4eb90ddefc16d95f77293/jetified-tensorflow-lite-task-text-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/903982cfee4d86319a3b409734979d2f/jetified-tensorflow-lite-task-text-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b7a4fb0ac2f9e18d62380b112e8a12f/jetified-tensorflow-lite-task-text-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3bdcda934f92c5d93542d139e6e576d/jetified-tensorflow-lite-task-text-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/903982cfee4d86319a3b409734979d2f/jetified-tensorflow-lite-task-text-0.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/903982cfee4d86319a3b409734979d2f/jetified-tensorflow-lite-task-text-0.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

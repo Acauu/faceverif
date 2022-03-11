@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'idea'
+
+
+
+android {
+    compileSdkVersion 31
+//    buildToolsVersion "31.0.0-rc3"
+    defaultConfig {
+        applicationId "com.example.facerecognition"
+        minSdkVersion 23
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
+        }
+    }
+    buildFeatures {
+        dataBinding = true
+    }
+
+    aaptOptions {
+        noCompress "tflite"
+        noCompress "lite"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+//    implementation 'androidx.appcompat:appcompat:1.1.0-alpha02'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0-rc1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+//    implementation 'com.android.support:appcompat-v7:28.0.0'
+
+
+    implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT'
+//    implementation 'org.tensorflow:tensorflow-lite:+@aar' // New API
+    implementation 'org.tensorflow:tensorflow-lite:2.4.1'
+    implementation 'org.tensorflow:tensorflow-android:1.13.1'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.3.0'
+    implementation "androidx.core:core-ktx:1.7.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version" // Old API
+//    implementation "com.google.android.gms:play-services-location:19.0.1"
+    implementation 'org.tensorflow:tensorflow-lite-task-vision:0.3.0'
+    implementation 'org.tensorflow:tensorflow-lite-task-text:0.3.0'
+    implementation 'org.tensorflow:tensorflow-lite-task-audio:0.3.0'
+
+}
+repositories {
+    mavenCentral()
+}

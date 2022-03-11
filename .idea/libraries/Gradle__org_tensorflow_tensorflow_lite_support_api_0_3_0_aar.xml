@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: org.tensorflow:tensorflow-lite-support-api:0.3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93ddea2384a4b92d025e7025ae1065a1/jetified-tensorflow-lite-support-api-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0d4eece6cfe71e722158b74dcc1df27/jetified-tensorflow-lite-support-api-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/469ec2d83aa6fd850e137663d2cf151b/jetified-tensorflow-lite-support-api-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e8e1b82f33fb34a1173454629ef4297/jetified-tensorflow-lite-support-api-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/395e90a37b7dfdc81378df5f8914a141/jetified-tensorflow-lite-support-api-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da1978f313ebcc29b57b6ad0c6d49062/jetified-tensorflow-lite-support-api-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e8e1b82f33fb34a1173454629ef4297/jetified-tensorflow-lite-support-api-0.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e8e1b82f33fb34a1173454629ef4297/jetified-tensorflow-lite-support-api-0.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
